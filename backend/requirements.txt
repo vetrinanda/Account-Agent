@@ -1,0 +1,8 @@
+fastapi
+langgraph
+langchain_google_genai
+langchain_groq
+pydantic
+sqlalchemy
+langchain_core
+langchain_community
