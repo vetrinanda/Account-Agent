@@ -6,3 +6,4 @@ pydantic
 sqlalchemy
 langchain_core
 langchain_community
+uvicorn
