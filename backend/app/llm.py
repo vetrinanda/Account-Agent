@@ -4,7 +4,7 @@ from .config import Config
 
 if Config.name == "gemini":
     llm = ChatGoogleGenerativeAI(
-        model="gemini-1.5-pro", 
+        model="gemini-2.5-flash", 
         temperature=0.7, 
         max_tokens=2048, 
         api_key=Config.gemini)
