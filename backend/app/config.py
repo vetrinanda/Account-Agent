@@ -9,4 +9,5 @@ class Config:
     groq=os.getenv("GROQ_API_KEY")
 
     # Database Configurations
-    DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./test.db")
+    database = os.getenv("DATABASE_URL", "sqlite:///./test.db")
+    name="gemini"
