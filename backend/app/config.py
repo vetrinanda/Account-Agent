@@ -1,0 +1,12 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+class Config:
+    # LLM Configurations
+    gemini=os.getenv("GOOGLE_API_KEY")
+    groq=os.getenv("GROQ_API_KEY")
+
+    # Database Configurations
+    DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./test.db")
