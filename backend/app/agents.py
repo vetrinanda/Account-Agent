@@ -1,6 +1,6 @@
 from langchain_classic.agents import create_agent
 from.llm import llm
-from langchain_corr.messages important ChatPromptTemplate
+from langchain_core.messages important ChatPromptTemplate
 agent=create_agent(
     model=llm,
     system_prompt=prompt,
