@@ -7,5 +7,5 @@ class User(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     balance=Column(Integer,primary_key=True,index=True)
-    nonlocalame = Column(String, index=True)
+    name = Column(String, index=True)
     email = Column(String, index=True)
